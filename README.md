@@ -1,4 +1,4 @@
-<img align="center" width="600" src="https://engineering.giphy.com/wp-content/uploads/2017/06/api.gif" alt="api">
+<center><img align="center" width="600" src="https://engineering.giphy.com/wp-content/uploads/2017/06/api.gif" alt="api"></center>
 <h1 align="center">Hi 👋, I'm Vasanth T</h1>
 <h3 align="center">A passionate frontend developer from India</h3>
 <img align="right" alt="coding" width="400" src="https://img-blog.csdnimg.cn/c7d3d798ec9c4b048dd6636bd1814368.gif#pic_center"
