@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-banner.svg" alt="Vasanth T banner" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0f172a,25:1e293b,50:0f766e,75:2563eb,100:7c3aed&text=Vasanth%20T&fontColor=ffffff&fontSize=48&fontAlignY=38&desc=Building%20AI,%20Open%20Source,%20and%20Developer%20Tools&descAlignY=58&animation=fadeIn" alt="Vasanth T banner" />
 </p>
 
 <p align="center">
