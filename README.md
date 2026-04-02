@@ -89,9 +89,9 @@ Right now the best example is [OpenClaude](https://github.com/Gitlawb/openclaude
 
 <p align="center">
   <img
-    src="https://streak-stats.demolab.com?user=Vasanthdev2004&theme=tokyonight&hide_border=true"
-    height="180"
-    alt="GitHub streak"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=Vasanthdev2004&theme=tokyo-night&hide_border=true&area=true&radius=12"
+    width="100%"
+    alt="GitHub contribution graph"
   />
 </p>
 
