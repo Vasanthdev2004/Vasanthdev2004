@@ -22,7 +22,7 @@
 
 I'm Vasanth, a developer from India focused on building polished products, useful open source contributions, and AI-powered developer workflows.
 
-Right now I’m spending most of my time on:
+Right now I'm spending most of my time on:
 - contributing features and fixes to [OpenClaude](https://github.com/Gitlawb/openclaude)
 - building with React, Tailwind, JavaScript, and TypeScript
 - improving developer UX, provider integrations, runtime tooling, and cross-platform support
@@ -39,7 +39,7 @@ I like work that feels real:
 
 ### Top contributor to OpenClaude
 
-I’ve been contributing across:
+I've been contributing across:
 - feature development
 - Windows compatibility fixes
 - provider integrations
@@ -78,12 +78,24 @@ Repo:
 ## GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Vasanthdev2004&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" height="170" alt="stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vasanthdev2004&layout=compact&theme=tokyonight&hide_border=true" height="170" alt="languages" />
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Vasanthdev2004&theme=tokyonight"
+    height="180"
+    alt="GitHub stats"
+  />
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Vasanthdev2004&theme=tokyonight"
+    height="180"
+    alt="Most used languages"
+  />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Vasanthdev2004&theme=tokyonight&hide_border=true" height="170" alt="streak" />
+  <img
+    src="https://streak-stats.demolab.com?user=Vasanthdev2004&theme=tokyonight&hide_border=true"
+    height="180"
+    alt="GitHub streak"
+  />
 </p>
 
 ---
