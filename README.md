@@ -18,7 +18,13 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/trinib/trinib/snake/github-snake-dark.svg" alt="divider" width="100%" />
+  <a href="https://github.com/Vasanthdev2004">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Vasanthdev2004/Vasanthdev2004/output/github-snake-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Vasanthdev2004/Vasanthdev2004/output/github-snake.svg" />
+      <img src="https://raw.githubusercontent.com/Vasanthdev2004/Vasanthdev2004/output/ocean.svg" alt="Vasanth's contribution snake" width="100%" />
+    </picture>
+  </a>
 </p>
 
 ## Builder Snapshot
