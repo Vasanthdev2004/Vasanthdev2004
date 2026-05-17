@@ -72,26 +72,23 @@ The clearest example right now is [OpenClaude](https://github.com/Gitlawb/opencl
 
 ## GitHub Universe
 
+> Generated daily from authenticated GraphQL — counts cross-repo PRs, reviews, and contributions to repos I don't own (so the numbers actually reflect the work).
+
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Vasanthdev2004&theme=tokyonight" alt="Profile details" width="49%" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Vasanthdev2004&theme=tokyonight" alt="Repos per language" width="49%" />
+  <img src="https://raw.githubusercontent.com/Vasanthdev2004/Vasanthdev2004/main/metrics.svg" alt="GitHub metrics" />
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Vasanthdev2004&theme=tokyonight" alt="Most commit language" width="49%" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Vasanthdev2004&theme=tokyonight&utcOffset=5" alt="Productive time" width="49%" />
+  <img src="https://raw.githubusercontent.com/Vasanthdev2004/Vasanthdev2004/main/metrics.plugin.isocalendar.svg" alt="Isometric contribution calendar" />
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Vasanthdev2004&theme=tokyonight" alt="Stats" width="98%" />
+  <img src="https://raw.githubusercontent.com/Vasanthdev2004/Vasanthdev2004/main/metrics.plugin.languages.svg" alt="Languages breakdown" width="49%" />
+  <img src="https://raw.githubusercontent.com/Vasanthdev2004/Vasanthdev2004/main/metrics.plugin.achievements.svg" alt="Achievements" width="49%" />
 </p>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=Vasanthdev2004&theme=tokyonight&hide_border=true&card_width=480&date_format=M%20j%5B%2C%20Y%5D" alt="Streak stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Vasanthdev2004&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=8&margin-w=8&margin-h=8" alt="GitHub trophies" />
 </p>
 
 <p align="center">
