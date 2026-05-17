@@ -1,19 +1,24 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0f172a,25:1e293b,50:0f766e,75:2563eb,100:7c3aed&text=Vasanth%20T&fontColor=ffffff&fontSize=48&fontAlignY=38&desc=Building%20AI,%20Open%20Source,%20and%20Developer%20Tools&descAlignY=58&animation=fadeIn" alt="Vasanth T banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=240&color=0:0f172a,20:1e293b,45:0f766e,72:2563eb,100:7c3aed&text=Vasanth%20T&fontColor=ffffff&fontSize=54&fontAlignY=36&desc=Frontend%20%E2%80%A2%20AI%20Tooling%20%E2%80%A2%20Developer%20Experience&descSize=18&descAlignY=58&descAlign=50&animation=fadeIn" alt="Vasanth T banner" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=2400&pause=700&color=22D3EE&center=true&vCenter=true&width=920&lines=Open+source+builder;Frontend+developer;AI+tooling+and+developer+experience;Learning+fast.+Shipping+faster." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2200&pause=700&color=22D3EE&center=true&vCenter=true&width=920&lines=Open+source+builder.;Frontend+craft+%2B+AI+tooling.;Polish+is+the+feature.;Ship.+Learn.+Repeat." alt="Typing intro" />
 </p>
 
 <p align="center">
   <a href="https://github.com/Vasanthdev2004">
-    <img src="https://komarev.com/ghpvc/?username=Vasanthdev2004&label=Profile%20views&color=0ea5e9&style=flat" alt="Profile views" />
+    <img src="https://komarev.com/ghpvc/?username=Vasanthdev2004&label=Profile%20views&color=0ea5e9&style=for-the-badge" alt="Profile views" />
   </a>
   <a href="https://github.com/Gitlawb/openclaude">
-    <img src="https://img.shields.io/badge/OpenClaude-Top%20Contributor-22c55e?style=flat" alt="OpenClaude top contributor" />
+    <img src="https://img.shields.io/badge/OpenClaude-Top%20Contributor-22c55e?style=for-the-badge" alt="OpenClaude top contributor" />
   </a>
-  <img src="https://img.shields.io/badge/Focus-AI%20%2B%20Frontend%20%2B%20DX-8b5cf6?style=flat" alt="Focus badge" />
+  <img src="https://img.shields.io/badge/Focus-AI%20%E2%80%A2%20Frontend%20%E2%80%A2%20DX-8b5cf6?style=for-the-badge" alt="Focus" />
+  <img src="https://img.shields.io/badge/Status-Open%20to%20collab-0ea5e9?style=for-the-badge" alt="Open to collab" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/trinib/trinib/snake/github-snake-dark.svg" alt="divider" width="100%" />
 </p>
 
 ## Builder Snapshot
@@ -35,8 +40,8 @@
       React, TypeScript, Tailwind, Node.js, Python, GitHub, and AI API integrations.
     </td>
     <td width="50%" valign="top">
-      <strong>What I care about</strong><br />
-      Clear UX, fast iteration, practical engineering, and work that creates visible impact.
+      <strong>How I work</strong><br />
+      Clear UX. Fast iteration. Practical engineering. Polished by default.
     </td>
   </tr>
 </table>
@@ -45,7 +50,8 @@
 
 I like working on products where the improvements are obvious to users, not just visible in a diff.
 
-Right now the best example is [OpenClaude](https://github.com/Gitlawb/openclaude), where I have been contributing across:
+The clearest example right now is [OpenClaude](https://github.com/Gitlawb/openclaude), where I contribute across:
+
 - new user-facing features
 - Windows compatibility fixes
 - provider setup and runtime UX
@@ -55,7 +61,27 @@ Right now the best example is [OpenClaude](https://github.com/Gitlawb/openclaude
 ## Toolbox
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,tailwind,nodejs,python,mongodb,mysql,git,github,linux,figma,vscode" alt="Tech stack" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,tailwind,nodejs,python,mongodb,mysql,git,github,linux,figma,vscode&perline=15" alt="Tech stack" />
+</p>
+
+## GitHub Universe
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Vasanthdev2004&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&card_width=440&rank_icon=github" alt="GitHub stats" height="180" />
+  <img src="https://streak-stats.demolab.com?user=Vasanthdev2004&theme=tokyonight&hide_border=true&card_width=440" alt="Streak stats" height="180" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vasanthdev2004&layout=compact&theme=tokyonight&hide_border=true&langs_count=10&card_width=440" alt="Top languages" height="180" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Vasanthdev2004&theme=tokyonight&utcOffset=5" alt="Productive time" height="180" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Vasanthdev2004&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10&margin-h=10" alt="GitHub trophies" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Vasanthdev2004&theme=tokyo-night&hide_border=true&area=true&radius=12&custom_title=Contribution+pulse" width="100%" alt="Contribution graph" />
 </p>
 
 ## Connect
@@ -64,35 +90,9 @@ Right now the best example is [OpenClaude](https://github.com/Gitlawb/openclaude
   <a href="https://x.com/crypt0beast">
     <img src="https://img.shields.io/badge/X-@crypt0beast-111827?style=for-the-badge&logo=x&logoColor=white" alt="X profile" />
   </a>
-  <a href="https://linkedin.com/in/vasanthdev">
-    <img src="https://img.shields.io/badge/LinkedIn-Vasanth%20Dev-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn profile" />
-  </a>
   <a href="mailto:vasanth.dev@outlook.com">
     <img src="https://img.shields.io/badge/Email-vasanth.dev@outlook.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
-</p>
-
-## GitHub Stats
-
-<p align="center">
-  <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Vasanthdev2004&theme=tokyonight"
-    height="180"
-    alt="GitHub stats"
-  />
-  <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Vasanthdev2004&theme=tokyonight"
-    height="180"
-    alt="Most commit language"
-  />
-</p>
-
-<p align="center">
-  <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=Vasanthdev2004&theme=tokyo-night&hide_border=true&area=true&radius=12"
-    width="100%"
-    alt="GitHub contribution graph"
-  />
 </p>
 
 ## Open To
@@ -102,6 +102,12 @@ Right now the best example is [OpenClaude](https://github.com/Gitlawb/openclaude
 - AI tooling and developer tools projects
 - long-term projects where I can grow with the codebase
 
+---
+
 <p align="center">
   <i>Building in public. Learning in public. Shipping in public.</i>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=80&color=0:0f172a,25:1e293b,50:0f766e,75:2563eb,100:7c3aed&section=footer" alt="footer wave" />
 </p>
