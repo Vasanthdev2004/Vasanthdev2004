@@ -7,25 +7,25 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Vasanthdev2004">
-    <img src="https://komarev.com/ghpvc/?username=Vasanthdev2004&label=Profile%20views&color=0ea5e9&style=for-the-badge" alt="Profile views" />
-  </a>
-  <a href="https://github.com/Gitlawb/openclaude">
-    <img src="https://img.shields.io/badge/OpenClaude-Top%20Contributor-22c55e?style=for-the-badge" alt="OpenClaude top contributor" />
-  </a>
-  <img src="https://img.shields.io/badge/Focus-AI%20%E2%80%A2%20Frontend%20%E2%80%A2%20DX-8b5cf6?style=for-the-badge" alt="Focus" />
-  <img src="https://img.shields.io/badge/Status-Open%20to%20collab-0ea5e9?style=for-the-badge" alt="Open to collab" />
+  <a href="https://github.com/Vasanthdev2004"><img src="https://komarev.com/ghpvc/?username=Vasanthdev2004&label=Profile%20views&color=0ea5e9&style=flat-square" alt="Profile views" /></a>
+  <a href="https://github.com/Gitlawb/openclaude"><img src="https://img.shields.io/badge/OpenClaude-Top%20Contributor-22c55e?style=flat-square" alt="OpenClaude top contributor" /></a>
+  <img src="https://img.shields.io/badge/Focus-AI%20%E2%80%A2%20Frontend%20%E2%80%A2%20DX-8b5cf6?style=flat-square" alt="Focus" />
+  <img src="https://img.shields.io/badge/Open%20to-collab-0ea5e9?style=flat-square" alt="Open to collab" />
 </p>
+
+<br />
 
 <p align="center">
   <a href="https://github.com/Vasanthdev2004">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Vasanthdev2004/Vasanthdev2004/output/github-snake-dark.svg" />
       <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Vasanthdev2004/Vasanthdev2004/output/github-snake.svg" />
-      <img src="https://raw.githubusercontent.com/Vasanthdev2004/Vasanthdev2004/output/ocean.svg" alt="Vasanth's contribution snake" width="100%" />
+      <img src="https://raw.githubusercontent.com/Vasanthdev2004/Vasanthdev2004/output/ocean.svg" alt="Vasanth's contribution snake" />
     </picture>
   </a>
 </p>
+
+<br />
 
 ## Builder Snapshot
 
@@ -67,27 +67,35 @@ The clearest example right now is [OpenClaude](https://github.com/Gitlawb/opencl
 ## Toolbox
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,tailwind,nodejs,python,mongodb,mysql,git,github,linux,figma,vscode&perline=15" alt="Tech stack" />
+  <img src="https://skillicons.dev/icons?i=ts,js,react,tailwind,nodejs,python,mongodb,mysql,git,github,linux,figma,vscode&perline=13" alt="Tech stack" />
 </p>
 
 ## GitHub Universe
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Vasanthdev2004&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&card_width=440&rank_icon=github" alt="GitHub stats" height="180" />
-  <img src="https://streak-stats.demolab.com?user=Vasanthdev2004&theme=tokyonight&hide_border=true&card_width=440" alt="Streak stats" height="180" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Vasanthdev2004&theme=tokyonight" alt="Profile details" width="49%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Vasanthdev2004&theme=tokyonight" alt="Repos per language" width="49%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vasanthdev2004&layout=compact&theme=tokyonight&hide_border=true&langs_count=10&card_width=440" alt="Top languages" height="180" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Vasanthdev2004&theme=tokyonight&utcOffset=5" alt="Productive time" height="180" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Vasanthdev2004&theme=tokyonight" alt="Most commit language" width="49%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Vasanthdev2004&theme=tokyonight&utcOffset=5" alt="Productive time" width="49%" />
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Vasanthdev2004&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10&margin-h=10" alt="GitHub trophies" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Vasanthdev2004&theme=tokyonight" alt="Stats" width="98%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Vasanthdev2004&theme=tokyo-night&hide_border=true&area=true&radius=12&custom_title=Contribution+pulse" width="100%" alt="Contribution graph" />
+  <img src="https://streak-stats.demolab.com?user=Vasanthdev2004&theme=tokyonight&hide_border=true&card_width=480&date_format=M%20j%5B%2C%20Y%5D" alt="Streak stats" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Vasanthdev2004&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=8&margin-w=8&margin-h=8" alt="GitHub trophies" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Vasanthdev2004&theme=tokyo-night&hide_border=true&area=true&radius=12&custom_title=Contribution+pulse" alt="Contribution graph" />
 </p>
 
 ## Connect
