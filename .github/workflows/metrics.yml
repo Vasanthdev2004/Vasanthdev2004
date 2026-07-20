@@ -2,7 +2,6 @@ name: Metrics
 
 on:
   schedule:
-    # Daily at 00:30 UTC (after snake at 00:00)
     - cron: "30 0 * * *"
   workflow_dispatch:
   push:
@@ -15,47 +14,30 @@ jobs:
   metrics:
     runs-on: ubuntu-latest
     steps:
-      - name: Main classic metrics
+      - name: Metrics
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PAT_TOKEN || secrets.GITHUB_TOKEN }}
           user: Vasanthdev2004
           filename: metrics.svg
           template: classic
-          base: header, activity, community, repositories, metadata
+          # Only the sections with real signal: identity + activity numbers. The old
+          # community/repositories/metadata blocks were all zeros and made the card
+          # look sparse. Rich visual plugins replace those empty rows instead.
+          base: header, activity
           base_indepth: yes
           config_timezone: Asia/Kolkata
           config_padding: 0, 8 + 11%
           repositories_affiliations: owner, collaborator, organization_member
-          repositories_forks: yes
           commits_authoring: vasanth.dev@outlook.com, 148849890+Vasanthdev2004@users.noreply.github.com
-
-      - name: Languages plugin
-        uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          user: Vasanthdev2004
-          filename: metrics.plugin.languages.svg
-          base: ""
-          config_timezone: Asia/Kolkata
           plugin_languages: yes
           plugin_languages_ignored: html, css, scss, dockerfile, makefile
-          plugin_languages_details: bytes-size, percentage
-          plugin_languages_indepth: yes
-          plugin_languages_analysis_timeout: 15
-          plugin_languages_categories: markup, programming
-          plugin_languages_recent_categories: programming
           plugin_languages_limit: 8
+          plugin_languages_details: percentage
+          plugin_languages_sections: most-used
           plugin_languages_colors: github
-
-      - name: Isometric calendar plugin
-        uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          user: Vasanthdev2004
-          filename: metrics.plugin.isocalendar.svg
-          base: ""
-          config_timezone: Asia/Kolkata
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
-
+          plugin_lines: yes
+          plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
