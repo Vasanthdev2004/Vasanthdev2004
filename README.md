@@ -47,14 +47,6 @@ If it ships to someone's terminal, it should be fast, safe, and honest about wha
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Vasanthdev2004&theme=tokyo-night&hide_border=true&area=true&radius=12&custom_title=Contribution+pulse" alt="Contribution graph" width="880" />
 </p>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Vasanthdev2004/Vasanthdev2004/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Vasanthdev2004/Vasanthdev2004/output/github-snake.svg" />
-    <img src="https://raw.githubusercontent.com/Vasanthdev2004/Vasanthdev2004/output/ocean.svg" alt="Contribution snake animation" width="880" />
-  </picture>
-</p>
-
 <br />
 
 <p align="center">
