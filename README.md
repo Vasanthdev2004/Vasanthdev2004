@@ -1,127 +1,66 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=240&color=0:0f172a,20:1e293b,45:0f766e,72:2563eb,100:7c3aed&text=Vasanth%20T&fontColor=ffffff&fontSize=54&fontAlignY=36&desc=Full-Stack%20%E2%80%A2%20AI%20Tooling%20%E2%80%A2%20Developer%20Experience&descSize=18&descAlignY=58&descAlign=50&animation=fadeIn" alt="Vasanth T banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=240&color=0:0f172a,20:1e293b,45:0f766e,72:2563eb,100:7c3aed&text=Vasanth%20T&fontColor=ffffff&fontSize=54&fontAlignY=36&desc=Full-Stack%20%C2%B7%20AI%20Tooling%20%C2%B7%20Developer%20Experience&descSize=18&descAlignY=58&descAlign=50&animation=fadeIn" alt="Vasanth T, full-stack developer focused on AI tooling and developer experience" width="100%" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2200&pause=700&color=22D3EE&center=true&vCenter=true&width=920&lines=Open+source+builder.;Full-stack+craft+%2B+AI+tooling.;Polish+is+the+feature.;Ship.+Learn.+Repeat." alt="Typing intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2200&pause=700&color=22D3EE&center=true&vCenter=true&width=920&lines=Full-stack+developer%2C+Go+at+the+core;Building+and+hardening+Zero%2C+a+terminal+AI+coding+agent;Security+fixes%2C+perf+infra%2C+Windows+that+just+works;Open+to+collaborating+on+AI+tooling" alt="Full-stack developer, Go at the core. Building and hardening Zero, a terminal AI coding agent." />
 </p>
 
 <p align="center">
-  <a href="https://github.com/Vasanthdev2004"><img src="https://komarev.com/ghpvc/?username=Vasanthdev2004&label=Profile%20views&color=0ea5e9&style=flat-square" alt="Profile views" /></a>
-  <a href="https://github.com/Gitlawb/openclaude"><img src="https://img.shields.io/badge/OpenClaude-Top%20Contributor-22c55e?style=flat-square" alt="OpenClaude top contributor" /></a>
-  <img src="https://img.shields.io/badge/Focus-AI%20%E2%80%A2%20Full--Stack%20%E2%80%A2%20DX-8b5cf6?style=flat-square" alt="Focus" />
-  <img src="https://img.shields.io/badge/Open%20to-collab-0ea5e9?style=flat-square" alt="Open to collab" />
+  <a href="https://github.com/Gitlawb/zero"><img src="https://img.shields.io/badge/Zero-active%20contributor-0f766e?style=for-the-badge&logo=go&logoColor=white" alt="Zero, active contributor" /></a>
+  &nbsp;
+  <a href="https://x.com/crypt0beast"><img src="https://img.shields.io/badge/X-%40crypt0beast-0f172a?style=for-the-badge&logo=x&logoColor=white" alt="X, @crypt0beast" /></a>
+  &nbsp;
+  <a href="mailto:vasanth.dev@outlook.com"><img src="https://img.shields.io/badge/Email-vasanth.dev%40outlook.com-2563eb?style=for-the-badge&logo=maildotru&logoColor=white" alt="Email vasanth.dev@outlook.com" /></a>
+</p>
+
+<br />
+
+## What I do
+
+I build full-stack products and the tooling that makes developers faster. Most of my open-source time goes into **[Zero](https://github.com/Gitlawb/zero)**, a terminal AI coding agent written in Go, where I work across the whole surface of the project:
+
+- **Features and provider UX**, so new models and providers feel native from day one.
+- **Windows compatibility and security hardening**, including sandbox work and OAuth redirect protections on credential flows.
+- **Performance benchmarking infrastructure** that measures how the agent actually behaves, not vibes.
+- **Stewardship**, meaning CI improvements, PR review, and issue triage.
+
+If it ships to someone's terminal, it should be fast, safe, and honest about what it is doing.
+
+<br />
+
+## Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=go,ts,js,react,tailwind,nodejs,python,mongodb,mysql,git,github,linux,figma,vscode&perline=14" alt="Go, TypeScript, JavaScript, React, Tailwind CSS, Node.js, Python, MongoDB, MySQL, Git, GitHub, Linux, Figma, VS Code" />
+</p>
+
+<br />
+
+## The Pulse
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Vasanthdev2004/Vasanthdev2004/main/metrics.svg" alt="GitHub metrics" width="880" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Vasanthdev2004&theme=tokyo-night&hide_border=true&area=true&radius=12&custom_title=Contribution+pulse" alt="Contribution graph" width="880" />
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Vasanthdev2004/Vasanthdev2004/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Vasanthdev2004/Vasanthdev2004/output/github-snake.svg" />
+    <img src="https://raw.githubusercontent.com/Vasanthdev2004/Vasanthdev2004/output/ocean.svg" alt="Contribution snake animation" width="880" />
+  </picture>
 </p>
 
 <br />
 
 <p align="center">
-  <a href="https://github.com/Vasanthdev2004">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Vasanthdev2004/Vasanthdev2004/output/github-snake-dark.svg" />
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Vasanthdev2004/Vasanthdev2004/output/github-snake.svg" />
-      <img src="https://raw.githubusercontent.com/Vasanthdev2004/Vasanthdev2004/output/ocean.svg" alt="Vasanth's contribution snake" />
-    </picture>
-  </a>
-</p>
-
-<br />
-
-## Builder Snapshot
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <strong>What I build</strong><br />
-      Full-stack web apps, AI tooling, developer workflows, and product features that feel polished in real use — frontend, backend, and everything between.
-    </td>
-    <td width="50%" valign="top">
-      <strong>Open source focus</strong><br />
-      Active contributor to <a href="https://github.com/Gitlawb/openclaude">OpenClaude</a> across features, Windows fixes, provider UX, CI, docs, and issue triage.
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <strong>Current stack</strong><br />
-      React, TypeScript, Tailwind, Node.js, Python, MongoDB, MySQL, Git/GitHub, and AI API integrations.
-    </td>
-    <td width="50%" valign="top">
-      <strong>How I work</strong><br />
-      Clear UX. Fast iteration. Practical engineering. Polished by default.
-    </td>
-  </tr>
-</table>
-
-## Open Source Highlight
-
-I like working on products where the improvements are obvious to users, not just visible in a diff.
-
-The clearest example right now is [OpenClaude](https://github.com/Gitlawb/openclaude), where I contribute across:
-
-- new user-facing features
-- Windows compatibility fixes
-- provider setup and runtime UX
-- CI and developer workflow improvements
-- issue triage and contributor support
-
-## Toolbox
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,react,tailwind,nodejs,python,mongodb,mysql,git,github,linux,figma,vscode&perline=13" alt="Tech stack" />
-</p>
-
-## GitHub Universe
-
-> Generated daily from authenticated GraphQL — counts cross-repo PRs, reviews, and contributions to repos I don't own (so the numbers actually reflect the work).
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Vasanthdev2004/Vasanthdev2004/main/metrics.svg" alt="GitHub metrics" />
+  Open to open-source collaboration, full-stack and product engineering roles, and AI tooling projects.
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Vasanthdev2004/Vasanthdev2004/main/metrics.plugin.isocalendar.svg" alt="Isometric contribution calendar" />
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Vasanthdev2004/Vasanthdev2004/main/metrics.plugin.languages.svg" alt="Languages breakdown" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Vasanthdev2004&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=8&margin-w=8&margin-h=8" alt="GitHub trophies" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=Vasanthdev2004&theme=tokyonight&hide_border=true&card_width=480&date_format=M%20j%5B%2C%20Y%5D" alt="Streak stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Vasanthdev2004&theme=tokyo-night&hide_border=true&area=true&radius=12&custom_title=Contribution+pulse" alt="Contribution graph" />
-</p>
-
-## Connect
-
-<p align="center">
-  <a href="https://x.com/crypt0beast">
-    <img src="https://img.shields.io/badge/X-@crypt0beast-111827?style=for-the-badge&logo=x&logoColor=white" alt="X profile" />
-  </a>
-  <a href="mailto:vasanth.dev@outlook.com">
-    <img src="https://img.shields.io/badge/Email-vasanth.dev@outlook.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-</p>
-
-## Open To
-
-- open source collaboration
-- full-stack and product engineering opportunities
-- AI tooling and developer tools projects
-- long-term projects where I can grow with the codebase
-
----
-
-<p align="center">
-  <i>Building in public. Learning in public. Shipping in public.</i>
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=80&color=0:0f172a,25:1e293b,50:0f766e,75:2563eb,100:7c3aed&section=footer" alt="footer wave" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=120&color=0:7c3aed,28:2563eb,55:0f766e,80:1e293b,100:0f172a" alt="" width="100%" />
 </p>
