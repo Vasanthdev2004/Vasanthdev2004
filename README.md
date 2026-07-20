@@ -37,14 +37,10 @@ If it ships to someone's terminal, it should be fast, safe, and honest about wha
 
 <br />
 
-## The Pulse
+## Contribution Pulse
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Vasanthdev2004/Vasanthdev2004/main/metrics.svg" alt="GitHub metrics" width="880" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Vasanthdev2004&theme=tokyo-night&hide_border=true&area=true&radius=12&custom_title=Contribution+pulse" alt="Contribution graph" width="880" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Vasanthdev2004&bg_color=0d1117&color=22d3ee&line=2563eb&point=7c3aed&area=true&area_color=1e293b&hide_border=true&radius=16&height=340&custom_title=Commits,%20PRs,%20reviews%20and%20issues%20over%20time" alt="Contribution activity graph" width="100%" />
 </p>
 
 <br />
