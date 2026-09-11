@@ -1,81 +1,57 @@
-<picture>
-  <source media="(max-width: 640px) and (prefers-color-scheme: light)" srcset="./assets/header-light-mobile.svg" />
-  <source media="(max-width: 640px)" srcset="./assets/header-dark-mobile.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg" />
-  <img src="./assets/header-dark.svg" width="100%" alt="Vasanth T. Product builder and open-source contributor. I build things worth using." />
-</picture>
+# Vasanth T
 
-<p align="center">
-  <a href="#selected-builds">Selected builds</a> &nbsp; / &nbsp;
-  <a href="#in-the-open">Open source</a> &nbsp; / &nbsp;
-  <a href="https://x.com/BuildWithBeast">Build with me ↗</a> &nbsp; / &nbsp;
-  <a href="mailto:vasanth.dev@outlook.com">Say hello ↗</a>
-</p>
+### Building products. Shipping open-source work.
 
-<br />
+I build full-stack products and contribute to the tools developers use to build theirs. A lot of my work happens across **[Gitlawb](https://github.com/Gitlawb)**: AI coding tools, infrastructure, and onchain applications.
 
-I’m **Vasanth**, a product builder and open-source contributor. I make tools for developers, players, and people building onchain. I like taking an idea through the whole journey: the interface, the system behind it, and the details that make it hold up in everyday use.
+My contributions range from model integrations and Windows compatibility to trading interfaces, security fixes, and the tests that keep them working.
 
-You’ll find me building my own projects, contributing to [Gitlawb](https://github.com/Gitlawb), and working through the less glamorous parts of shipping: debugging, compatibility, tests, and code review.
+[Gitlawb contributions](#gitlawb-contributions) · [My projects](#things-im-building) · [@BuildWithBeast](https://x.com/BuildWithBeast) · [Email](mailto:vasanth.dev@outlook.com)
 
-## Selected builds
+## Gitlawb contributions
 
-<table>
-  <tr>
-    <td width="80" align="center">
-      <a href="https://github.com/Vasanthdev2004/Game-Save-Genie"><img src="./assets/save.svg" width="56" height="56" alt="Game Save Genie" /></a>
-    </td>
-    <td>
-      <h3><a href="https://github.com/Vasanthdev2004/Game-Save-Genie">Game Save Genie ↗</a></h3>
-      <p>Your progress deserves a backup. Automatic, versioned game-save backups to cloud storage you control, built on Ludusavi and rclone.</p>
-      <p><sub><b>Python</b> · Self-hosted · Windows backups stable; cross-machine sync in beta</sub></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="80" align="center">
-      <a href="https://github.com/Vasanthdev2004/moneykernel"><img src="./assets/kernel.svg" width="56" height="56" alt="MoneyKernel" /></a>
-    </td>
-    <td>
-      <h3><a href="https://github.com/Vasanthdev2004/moneykernel">MoneyKernel ↗</a></h3>
-      <p>Spending controls for AI agents. Set budgets, approve exact orders, and keep verifiable receipts for every simulated trade.</p>
-      <p><sub><b>TypeScript · React · PostgreSQL</b> · Live market data, paper execution</sub></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="80" align="center">
-      <a href="https://github.com/Vasanthdev2004/kred"><img src="./assets/kred.svg" width="56" height="56" alt="Kred" /></a>
-    </td>
-    <td>
-      <h3><a href="https://github.com/Vasanthdev2004/kred">Kred ↗</a></h3>
-      <p>Make onchain work easier to account for. Turn payment history into verifiable income statements and shareable proof.</p>
-      <p><sub><b>Next.js · Solidity · PostgreSQL</b> · Arc Testnet MVP</sub></p>
-    </td>
-  </tr>
-</table>
+> **189 merged pull requests across 6 public repositories.**
 
-## In the open
+| Project | Where I contribute | Merged PRs |
+| :--- | :--- | ---: |
+| **[Zero](https://github.com/Gitlawb/zero)** | Terminal AI tooling, model/provider integrations, Windows compatibility, and reliability. | **[141](https://github.com/Gitlawb/zero/pulls?q=is%3Apr+is%3Amerged+author%3AVasanthdev2004)** |
+| **[OpenClaude](https://github.com/Gitlawb/openclaude)** | Context management, provider behavior, credentials, and cross-platform fixes. | **[38](https://github.com/Gitlawb/openclaude/pulls?q=is%3Apr+is%3Amerged+author%3AVasanthdev2004)** |
+| **[Node](https://github.com/Gitlawb/node)** | Push authorization, graceful shutdown, observability, and database migrations. | **[5](https://github.com/Gitlawb/node/pulls?q=is%3Apr+is%3Amerged+author%3AVasanthdev2004)** |
+| **[Openlaunch](https://github.com/Gitlawb/openlaunch)** | Product UI, live trading charts, wallet identities, and token avatars. | **[2](https://github.com/Gitlawb/openlaunch/pulls?q=is%3Apr+is%3Amerged+author%3AVasanthdev2004)** |
+| **[Node Explorer](https://github.com/Gitlawb/node-explorer)** | Explorer UI, search, documentation, and accessible mobile navigation. | **[2](https://github.com/Gitlawb/node-explorer/pulls?q=is%3Apr+is%3Amerged+author%3AVasanthdev2004)** |
+| **[OpenClaude Skills](https://github.com/Gitlawb/openclaude-skills)** | Registry validation and trust-metadata hardening. | **[1](https://github.com/Gitlawb/openclaude-skills/pulls?q=is%3Apr+is%3Amerged+author%3AVasanthdev2004)** |
 
-I contribute to projects I use and care about, from the first interaction to the difficult edge cases.
+<sub>Public authored PRs merged as of September 11, 2026. Counts are a snapshot; each number links to the latest results.</sub>
 
-| Project | Where I’ve contributed |
-| :--- | :--- |
-| **[Zero](https://github.com/Gitlawb/zero)** | Terminal AI tooling: [model selection on resume](https://github.com/Gitlawb/zero/pull/1009), [proxy support](https://github.com/Gitlawb/zero/pull/1025), and [ACP integration](https://github.com/Gitlawb/zero/pull/915). |
-| **[OpenClaude](https://github.com/Gitlawb/openclaude)** | Reliability across model providers and operating systems: [context compaction](https://github.com/Gitlawb/openclaude/pull/636) and [Windows credential handling](https://github.com/Gitlawb/openclaude/pull/941). |
-| **[Openlaunch](https://github.com/Gitlawb/openlaunch)** | [Interface and trading-chart improvements](https://github.com/Gitlawb/openlaunch/pull/8), plus [wallet identities and token avatars](https://github.com/Gitlawb/openlaunch/pull/13). |
+### A few changes behind those numbers
 
-## What I work with
+- **Keeping agent sessions reliable.** Preserved [model choices when Zero’s specialist sessions resume](https://github.com/Gitlawb/zero/pull/1009) and prevented [repeated automatic compaction in OpenClaude](https://github.com/Gitlawb/openclaude/pull/636).
+- **Making everyday setups work.** Worked on [proxy support in Zero](https://github.com/Gitlawb/zero/pull/1025) and [Windows credential handling in OpenClaude](https://github.com/Gitlawb/openclaude/pull/941).
+- **Building the product experience.** [Rebuilt Openlaunch’s interface and hardened live market charts](https://github.com/Gitlawb/openlaunch/pull/8), then added [distinct wallet identities and token mosaics](https://github.com/Gitlawb/openlaunch/pull/13).
+- **Strengthening the infrastructure.** Made [owner-only push authorization the default in Node](https://github.com/Gitlawb/node/pull/330) and added [graceful shutdown with opt-in metrics](https://github.com/Gitlawb/node/pull/22).
 
-**Build** &nbsp; TypeScript · Go · Python · Solidity<br />
-**Interface** &nbsp; React · Next.js · Tailwind CSS<br />
-**Systems** &nbsp; Node.js · PostgreSQL · GitHub Actions · Linux & Windows
+[Browse all my public Gitlawb merged PRs →](https://github.com/pulls?q=is%3Apr+is%3Amerged+is%3Apublic+author%3AVasanthdev2004+org%3AGitlawb)
 
-I care about clear interfaces, predictable behavior, and leaving the code easier to work on than I found it.
+## Things I’m building
 
-<br />
+**[Game Save Genie](https://github.com/Vasanthdev2004/Game-Save-Genie)**<br />
+Automatic, versioned game-save backups to cloud storage you control, built on Ludusavi and rclone. Windows backups are stable; cross-machine sync is in beta.
+
+**[MoneyKernel](https://github.com/Vasanthdev2004/moneykernel)**<br />
+Spending controls for AI agents: budgets, exact-order approvals, and verifiable receipts. Live market data with paper execution.
+
+**[Kred](https://github.com/Vasanthdev2004/kred)**<br />
+Verifiable income statements and shareable proof from onchain payment history. Currently an Arc Testnet MVP.
+
+## Tools I work with
+
+**Languages** · Go, TypeScript, Python, Solidity<br />
+**Product** · React, Next.js, Tailwind CSS<br />
+**Systems** · Node.js, PostgreSQL, GitHub Actions, Linux & Windows
 
 ---
 
-**Got something worth building?**<br />
-I’m open to product engineering opportunities, open-source collaboration, and useful ideas that need someone to make them work.
+**Have something useful in mind? Let’s build it.**<br />
+Open to product engineering opportunities and open-source collaboration.
 
-[Start a conversation](mailto:vasanth.dev@outlook.com) &nbsp; · &nbsp; [Follow @BuildWithBeast](https://x.com/BuildWithBeast) &nbsp; · &nbsp; [Explore my repositories](https://github.com/Vasanthdev2004?tab=repositories)
+[vasanth.dev@outlook.com](mailto:vasanth.dev@outlook.com) · [Follow @BuildWithBeast](https://x.com/BuildWithBeast) · [Explore my repositories](https://github.com/Vasanthdev2004?tab=repositories)
