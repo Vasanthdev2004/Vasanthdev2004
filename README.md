@@ -1,10 +1,10 @@
 # Vasanth T
 
-### Building products. Shipping open-source work.
+### Product builder & open-source maintainer at [Gitlawb](https://github.com/Gitlawb).
 
-I build full-stack products and contribute to the tools developers use to build theirs. A lot of my work happens across **[Gitlawb](https://github.com/Gitlawb)**: AI coding tools, infrastructure, and onchain applications.
+I work at **Gitlawb**, building products and maintaining open-source projects across AI coding tools, infrastructure, and onchain applications.
 
-My contributions range from model integrations and Windows compatibility to trading interfaces, security fixes, and the tests that keep them working.
+My work spans implementation, code review, and ongoing maintenance: model integrations, Windows compatibility, trading interfaces, security fixes, and the tests that keep them working.
 
 [Gitlawb contributions](#gitlawb-contributions) · [My projects](#things-im-building) · [@BuildWithBeast](https://x.com/BuildWithBeast) · [Email](mailto:vasanth.dev@outlook.com)
 
@@ -22,7 +22,7 @@ My contributions range from model integrations and Windows compatibility to trad
 <details>
 <summary><strong>Explore all 6 projects and merged pull requests</strong></summary>
 
-| Project | Where I contribute | Merged PRs |
+| Project | Work across our projects | Merged PRs |
 | :--- | :--- | ---: |
 | **[Zero](https://github.com/Gitlawb/zero)** | Terminal AI tooling, model/provider integrations, Windows compatibility, and reliability. | **[141](https://github.com/Gitlawb/zero/pulls?q=is%3Apr+is%3Amerged+author%3AVasanthdev2004)** |
 | **[OpenClaude](https://github.com/Gitlawb/openclaude)** | Context management, provider behavior, credentials, and cross-platform fixes. | **[38](https://github.com/Gitlawb/openclaude/pulls?q=is%3Apr+is%3Amerged+author%3AVasanthdev2004)** |
