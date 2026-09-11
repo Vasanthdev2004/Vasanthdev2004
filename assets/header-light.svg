@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
+  <title id="title">Vasanth T. Product builder and open-source contributor.</title>
+  <desc id="desc">I build things worth using. A custom mint and charcoal composition with an architectural V assembled from three layers.</desc>
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#ccdcd5"/></pattern>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e0eee8"/><stop offset="1" stop-color="#d5e7df"/></linearGradient>
+    <linearGradient id="edge"><stop stop-color="#087f70" stop-opacity=".2"/><stop offset=".5" stop-color="#087f70"/><stop offset="1" stop-color="#087f70" stop-opacity=".25"/></linearGradient>
+  </defs>
+  <style>
+    @keyframes assemble { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-7px); } }
+    @media (prefers-reduced-motion: no-preference) { .assembly { animation: assemble 7s ease-in-out infinite; } }
+  </style>
+  <rect width="1200" height="400" rx="18" fill="#edf3f0"/>
+  <rect x="740" y="16" width="444" height="368" rx="12" fill="url(#dots)"/>
+  <path d="M56 42h24" stroke="#087f70" stroke-width="3"/>
+  <text x="93" y="48" fill="#4d696b" font-family="Consolas, 'Liberation Mono', monospace" font-size="16" letter-spacing="2">PRODUCT BUILDER / OPEN-SOURCE CONTRIBUTOR</text>
+  <text x="48" y="184" fill="#172d32" font-family="Arial, Helvetica, sans-serif" font-size="150" font-weight="800" letter-spacing="-9">Vasanth<tspan fill="#087f70">.</tspan></text>
+  <text x="56" y="251" fill="#172d32" font-family="Arial, Helvetica, sans-serif" font-size="33" font-weight="500" letter-spacing="-.6">I build things worth using.</text>
+  <text x="56" y="294" fill="#4d696b" font-family="Arial, Helvetica, sans-serif" font-size="23">Useful products. Open code. Real problems.</text>
+  <g transform="translate(806 82)"><g class="assembly">
+    <path d="M42 198 182 276 322 198" fill="none" stroke="#ccdcd5" stroke-width="1.5" stroke-dasharray="4 6"/>
+    <path d="M42 130v68m140 14v64m140-146v68" fill="none" stroke="#ccdcd5" stroke-width="1.5" stroke-dasharray="4 6"/>
+    <path d="m32 175 150-83 150 83v21l-150 83-150-83z" fill="#bdd9d0" stroke="#ccdcd5"/>
+    <path d="m32 175 150-83 150 83-150 83z" fill="url(#surface)" stroke="#ccdcd5"/>
+    <path d="m32 135 150-83 150 83v21l-150 83-150-83z" fill="#bdd9d0" stroke="#ccdcd5"/>
+    <path d="m32 135 150-83 150 83-150 83z" fill="url(#surface)" stroke="#ccdcd5"/>
+    <path d="m32 95 150-83 150 83v21l-150 83-150-83z" fill="#bdd9d0" stroke="#ccdcd5"/>
+    <path d="m32 95 150-83 150 83-150 83z" fill="url(#surface)" stroke="url(#edge)" stroke-width="1.5"/>
+    <path d="m92 82 34-18 56 58 57-58 33 18-90 78z" fill="#087f70"/>
+    <path d="m32 95 150 83 150-83" fill="none" stroke="#087f70" stroke-width="2" opacity=".8"/>
+    <circle cx="32" cy="95" r="3.5" fill="#087f70"/>
+    <circle cx="332" cy="95" r="3.5" fill="#087f70"/>
+    <circle cx="182" cy="178" r="4" fill="#087f70"/>
+  </g></g>
+  <path d="M56 346H1144" stroke="#ccdcd5"/>
+  <g fill="#4d696b" font-family="Consolas, 'Liberation Mono', monospace" font-size="15" letter-spacing="1">
+    <text x="56" y="376">01 / PRODUCTS   02 / DEVELOPER TOOLS   03 / ONCHAIN</text>
+    <text x="1144" y="376" text-anchor="end" fill="#087f70">LET'S BUILD SOMETHING USEFUL ↗</text>
+  </g>
+</svg>

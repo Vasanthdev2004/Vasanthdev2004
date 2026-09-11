@@ -1,54 +1,81 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=240&color=0:0f172a,20:1e293b,45:0f766e,72:2563eb,100:7c3aed&text=Vasanth%20T&fontColor=ffffff&fontSize=54&fontAlignY=36&desc=Full-Stack%20%C2%B7%20AI%20Tooling%20%C2%B7%20Developer%20Experience&descSize=18&descAlignY=58&descAlign=50&animation=fadeIn" alt="Vasanth T, full-stack developer focused on AI tooling and developer experience" width="100%" />
-</p>
+<picture>
+  <source media="(max-width: 640px) and (prefers-color-scheme: light)" srcset="./assets/header-light-mobile.svg" />
+  <source media="(max-width: 640px)" srcset="./assets/header-dark-mobile.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg" />
+  <img src="./assets/header-dark.svg" width="100%" alt="Vasanth T. Product builder and open-source contributor. I build things worth using." />
+</picture>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2200&pause=700&color=22D3EE&center=true&vCenter=true&width=920&lines=Full-stack+developer%2C+Go+at+the+core;Building+and+hardening+Zero%2C+a+terminal+AI+coding+agent;Security+fixes%2C+perf+infra%2C+Windows+that+just+works;Open+to+collaborating+on+AI+tooling" alt="Full-stack developer, Go at the core. Building and hardening Zero, a terminal AI coding agent." />
-</p>
-
-<p align="center">
-  <a href="https://github.com/Gitlawb/zero"><img src="https://img.shields.io/badge/Zero-active%20contributor-0f766e?style=for-the-badge&logo=go&logoColor=white" alt="Zero, active contributor" /></a>
-  &nbsp;
-  <a href="https://x.com/crypt0beast"><img src="https://img.shields.io/badge/X-%40crypt0beast-0f172a?style=for-the-badge&logo=x&logoColor=white" alt="X, @crypt0beast" /></a>
-  &nbsp;
-  <a href="mailto:vasanth.dev@outlook.com"><img src="https://img.shields.io/badge/Email-vasanth.dev%40outlook.com-2563eb?style=for-the-badge&logo=maildotru&logoColor=white" alt="Email vasanth.dev@outlook.com" /></a>
-</p>
-
-<br />
-
-## What I do
-
-I build full-stack products and the tooling that makes developers faster. Most of my open-source time goes into **[Zero](https://github.com/Gitlawb/zero)**, a terminal AI coding agent written in Go, where I work across the whole surface of the project:
-
-- **Features and provider UX**, so new models and providers feel native from day one.
-- **Windows compatibility and security hardening**, including sandbox work and OAuth redirect protections on credential flows.
-- **Performance benchmarking infrastructure** that measures how the agent actually behaves, not vibes.
-- **Stewardship**, meaning CI improvements, PR review, and issue triage.
-
-If it ships to someone's terminal, it should be fast, safe, and honest about what it is doing.
-
-<br />
-
-## Stack
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=go,ts,js,react,tailwind,nodejs,python,mongodb,mysql,git,github,linux,figma,vscode&perline=14" alt="Go, TypeScript, JavaScript, React, Tailwind CSS, Node.js, Python, MongoDB, MySQL, Git, GitHub, Linux, Figma, VS Code" />
+  <a href="#selected-builds">Selected builds</a> &nbsp; / &nbsp;
+  <a href="#in-the-open">Open source</a> &nbsp; / &nbsp;
+  <a href="https://x.com/BuildWithBeast">Build with me ↗</a> &nbsp; / &nbsp;
+  <a href="mailto:vasanth.dev@outlook.com">Say hello ↗</a>
 </p>
 
 <br />
 
-## Contribution Pulse
+I’m **Vasanth**, a product builder and open-source contributor. I make tools for developers, players, and people building onchain. I like taking an idea through the whole journey: the interface, the system behind it, and the details that make it hold up in everyday use.
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Vasanthdev2004&bg_color=0d1117&color=22d3ee&line=2563eb&point=7c3aed&area=true&area_color=1e293b&hide_border=true&radius=16&height=340&custom_title=Commits,%20PRs,%20reviews%20and%20issues%20over%20time" alt="Contribution activity graph" width="100%" />
-</p>
+You’ll find me building my own projects, contributing to [Gitlawb](https://github.com/Gitlawb), and working through the less glamorous parts of shipping: debugging, compatibility, tests, and code review.
+
+## Selected builds
+
+<table>
+  <tr>
+    <td width="80" align="center">
+      <a href="https://github.com/Vasanthdev2004/Game-Save-Genie"><img src="./assets/save.svg" width="56" height="56" alt="Game Save Genie" /></a>
+    </td>
+    <td>
+      <h3><a href="https://github.com/Vasanthdev2004/Game-Save-Genie">Game Save Genie ↗</a></h3>
+      <p>Your progress deserves a backup. Automatic, versioned game-save backups to cloud storage you control, built on Ludusavi and rclone.</p>
+      <p><sub><b>Python</b> · Self-hosted · Windows backups stable; cross-machine sync in beta</sub></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="80" align="center">
+      <a href="https://github.com/Vasanthdev2004/moneykernel"><img src="./assets/kernel.svg" width="56" height="56" alt="MoneyKernel" /></a>
+    </td>
+    <td>
+      <h3><a href="https://github.com/Vasanthdev2004/moneykernel">MoneyKernel ↗</a></h3>
+      <p>Spending controls for AI agents. Set budgets, approve exact orders, and keep verifiable receipts for every simulated trade.</p>
+      <p><sub><b>TypeScript · React · PostgreSQL</b> · Live market data, paper execution</sub></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="80" align="center">
+      <a href="https://github.com/Vasanthdev2004/kred"><img src="./assets/kred.svg" width="56" height="56" alt="Kred" /></a>
+    </td>
+    <td>
+      <h3><a href="https://github.com/Vasanthdev2004/kred">Kred ↗</a></h3>
+      <p>Make onchain work easier to account for. Turn payment history into verifiable income statements and shareable proof.</p>
+      <p><sub><b>Next.js · Solidity · PostgreSQL</b> · Arc Testnet MVP</sub></p>
+    </td>
+  </tr>
+</table>
+
+## In the open
+
+I contribute to projects I use and care about, from the first interaction to the difficult edge cases.
+
+| Project | Where I’ve contributed |
+| :--- | :--- |
+| **[Zero](https://github.com/Gitlawb/zero)** | Terminal AI tooling: [model selection on resume](https://github.com/Gitlawb/zero/pull/1009), [proxy support](https://github.com/Gitlawb/zero/pull/1025), and [ACP integration](https://github.com/Gitlawb/zero/pull/915). |
+| **[OpenClaude](https://github.com/Gitlawb/openclaude)** | Reliability across model providers and operating systems: [context compaction](https://github.com/Gitlawb/openclaude/pull/636) and [Windows credential handling](https://github.com/Gitlawb/openclaude/pull/941). |
+| **[Openlaunch](https://github.com/Gitlawb/openlaunch)** | [Interface and trading-chart improvements](https://github.com/Gitlawb/openlaunch/pull/8), plus [wallet identities and token avatars](https://github.com/Gitlawb/openlaunch/pull/13). |
+
+## What I work with
+
+**Build** &nbsp; TypeScript · Go · Python · Solidity<br />
+**Interface** &nbsp; React · Next.js · Tailwind CSS<br />
+**Systems** &nbsp; Node.js · PostgreSQL · GitHub Actions · Linux & Windows
+
+I care about clear interfaces, predictable behavior, and leaving the code easier to work on than I found it.
 
 <br />
 
-<p align="center">
-  Open to open-source collaboration, full-stack and product engineering roles, and AI tooling projects.
-</p>
+---
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=120&color=0:7c3aed,28:2563eb,55:0f766e,80:1e293b,100:0f172a" alt="" width="100%" />
-</p>
+**Got something worth building?**<br />
+I’m open to product engineering opportunities, open-source collaboration, and useful ideas that need someone to make them work.
+
+[Start a conversation](mailto:vasanth.dev@outlook.com) &nbsp; · &nbsp; [Follow @BuildWithBeast](https://x.com/BuildWithBeast) &nbsp; · &nbsp; [Explore my repositories](https://github.com/Vasanthdev2004?tab=repositories)
