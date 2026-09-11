@@ -10,7 +10,17 @@ My contributions range from model integrations and Windows compatibility to trad
 
 ## Gitlawb contributions
 
-> **189 merged pull requests across 6 public repositories.**
+<picture>
+  <source media="(max-width: 640px) and (prefers-color-scheme: light)" srcset="./assets/contributions-light-mobile.svg" />
+  <source media="(max-width: 640px)" srcset="./assets/contributions-dark-mobile.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/contributions-light.svg" />
+  <img src="./assets/contributions-dark.svg" width="100%" alt="Gitlawb contribution history: 189 merged PRs across 6 public repositories, including 13 in the 30 days before September 11, 2026. Cumulative merge timeline and per-project breakdown." />
+</picture>
+
+<sub>Public merged PRs through September 11, 2026. <a href="./data/README.md">Source data and chart notes</a>.</sub>
+
+<details>
+<summary><strong>Explore all 6 projects and merged pull requests</strong></summary>
 
 | Project | Where I contribute | Merged PRs |
 | :--- | :--- | ---: |
@@ -22,6 +32,8 @@ My contributions range from model integrations and Windows compatibility to trad
 | **[OpenClaude Skills](https://github.com/Gitlawb/openclaude-skills)** | Registry validation and trust-metadata hardening. | **[1](https://github.com/Gitlawb/openclaude-skills/pulls?q=is%3Apr+is%3Amerged+author%3AVasanthdev2004)** |
 
 <sub>Public authored PRs merged as of September 11, 2026. Counts are a snapshot; each number links to the latest results.</sub>
+
+</details>
 
 ### A few changes behind those numbers
 
@@ -45,9 +57,9 @@ Verifiable income statements and shareable proof from onchain payment history. C
 
 ## Tools I work with
 
-**Languages** · Go, TypeScript, Python, Solidity<br />
-**Product** · React, Next.js, Tailwind CSS<br />
-**Systems** · Node.js, PostgreSQL, GitHub Actions, Linux & Windows
+**Languages** · `Go` `TypeScript` `Python` `Solidity`<br />
+**Product** · `React` `Next.js` `Tailwind CSS`<br />
+**Systems** · `Node.js` `PostgreSQL` `GitHub Actions` `Linux` `Windows`
 
 ---
 

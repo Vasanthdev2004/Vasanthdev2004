@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title description">
+<title id="title">Public Gitlawb contributions</title><desc id="description">189 merged pull requests across 6 public repositories as of 11 Sept 2026. A cumulative timeline and proportional repository bars. Zero: 141; OpenClaude: 38; Node: 5; Node Explorer: 2; Openlaunch: 2; OpenClaude Skills: 1. Motion is decorative; this is a dated snapshot, not a live feed.</desc>
+<defs><linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#79e2b4" stop-opacity=".2"/><stop offset="1" stop-color="#79e2b4" stop-opacity=".015"/></linearGradient></defs>
+<style>
+    text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}
+    .number{font-variant-numeric:tabular-nums;font-weight:650;letter-spacing:-1.6px}
+    .label{font-family:ui-monospace,"SFMono-Regular",Consolas,monospace;letter-spacing:1.6px}
+    .sweep,.ripple{display:none}
+    @media (prefers-reduced-motion:no-preference){
+      .sweep{display:block;stroke-dasharray:4 96;animation:travel 9s linear infinite}
+      .ripple{display:block;transform-box:fill-box;transform-origin:center;animation:pulse 3.6s ease-out infinite}
+    }
+    @keyframes travel{from{stroke-dashoffset:100}to{stroke-dashoffset:0}}
+    @keyframes pulse{0%{transform:scale(.65);opacity:.55}75%,100%{transform:scale(2);opacity:0}}
+  </style>
+<rect x=".5" y=".5" width="959" height="539" rx="18" fill="#0d1117" stroke="#30363d"/>
+<text x="32" y="36" font-size="13" fill="#9da7b3" class="label">GITLAWB / OPEN-SOURCE ACTIVITY</text>
+<text x="32" y="76" font-size="32" fill="#e6edf3" font-weight="650" letter-spacing="-.9">Built in the open.</text>
+<text x="928" y="36" font-size="13" fill="#9da7b3" text-anchor="end">11 Sept 2026</text>
+<text x="32" y="142" font-size="46" fill="#79e2b4" class="number">189</text>
+<text x="32" y="170" font-size="15" fill="#9da7b3" >merged PRs</text>
+<text x="355" y="142" font-size="46" fill="#e6edf3" class="number">6</text>
+<text x="355" y="170" font-size="15" fill="#9da7b3" >public repos</text>
+<text x="668" y="142" font-size="46" fill="#e6edf3" class="number">13</text>
+<text x="668" y="170" font-size="15" fill="#9da7b3" >last 30 days</text>
+<path d="M 32 198 H 928" stroke="#30363d"/>
+<text x="32" y="234" font-size="18" fill="#e6edf3" font-weight="600">Merged, over time</text>
+<text x="32" y="258" font-size="14" fill="#9da7b3" >Cumulative public pull requests</text>
+<path d="M 61 439 H 566" stroke="#242d38" />
+<text x="49" y="443" font-size="12" fill="#9da7b3" text-anchor="end">0</text>
+<path d="M 61 400.75 H 566" stroke="#242d38" stroke-dasharray="3 5"/>
+<text x="49" y="404.75" font-size="12" fill="#9da7b3" text-anchor="end">50</text>
+<path d="M 61 362.5 H 566" stroke="#242d38" stroke-dasharray="3 5"/>
+<text x="49" y="366.5" font-size="12" fill="#9da7b3" text-anchor="end">100</text>
+<path d="M 61 324.25 H 566" stroke="#242d38" stroke-dasharray="3 5"/>
+<text x="49" y="328.25" font-size="12" fill="#9da7b3" text-anchor="end">150</text>
+<path d="M 61 286 H 566" stroke="#242d38" stroke-dasharray="3 5"/>
+<text x="49" y="290" font-size="12" fill="#9da7b3" text-anchor="end">200</text>
+<text x="61" y="463" font-size="13" fill="#9da7b3" >Apr</text>
+<text x="153.53" y="463" font-size="13" fill="#9da7b3" text-anchor="middle">May</text>
+<text x="249.14" y="463" font-size="13" fill="#9da7b3" text-anchor="middle">Jun</text>
+<text x="341.66" y="463" font-size="13" fill="#9da7b3" text-anchor="middle">Jul</text>
+<text x="437.28" y="463" font-size="13" fill="#9da7b3" text-anchor="middle">Aug</text>
+<text x="532.89" y="463" font-size="13" fill="#9da7b3" text-anchor="middle">Sep</text>
+<path d="M 61 439 L 64.08 432.88 L 67.17 427.52 L 70.25 422.17 L 73.34 418.35 L 76.42 418.35 L 79.51 416.81 L 82.59 416.81 L 85.67 415.28 L 88.76 415.28 L 91.84 415.28 L 94.93 415.28 L 98.01 414.52 L 101.09 414.52 L 104.18 413.75 L 107.26 413.75 L 110.35 413.75 L 113.43 413.75 L 116.52 413.75 L 119.6 413.75 L 122.68 413.75 L 125.77 413.75 L 128.85 413.75 L 131.94 413.75 L 135.02 413.75 L 138.11 413.75 L 141.19 413.75 L 144.27 413.75 L 147.36 412.99 L 150.44 412.99 L 153.53 412.99 L 156.61 412.99 L 159.7 412.99 L 162.78 412.99 L 165.86 412.99 L 168.95 412.23 L 172.03 412.23 L 175.12 412.23 L 178.2 412.23 L 181.28 412.23 L 184.37 412.23 L 187.45 412.23 L 190.54 412.23 L 193.62 411.46 L 196.71 411.46 L 199.79 410.69 L 202.87 410.69 L 205.96 410.69 L 209.04 410.69 L 212.13 410.69 L 215.21 410.69 L 218.3 410.69 L 221.38 410.69 L 224.46 410.69 L 227.55 410.69 L 230.63 410.69 L 233.72 409.93 L 236.8 409.93 L 239.89 408.4 L 242.97 408.4 L 246.05 408.4 L 249.14 408.4 L 252.22 407.63 L 255.31 404.57 L 258.39 397.69 L 261.47 390.81 L 264.56 386.98 L 267.64 382.39 L 270.73 381.63 L 273.81 380.1 L 276.9 380.1 L 279.98 376.27 L 283.06 374.74 L 286.15 373.98 L 289.23 371.68 L 292.32 367.86 L 295.4 366.32 L 298.49 364.8 L 301.57 364.8 L 304.65 363.26 L 307.74 361.74 L 310.82 356.38 L 313.91 349.5 L 316.99 349.5 L 320.08 349.5 L 323.16 344.14 L 326.24 340.31 L 329.33 340.31 L 332.41 339.55 L 335.5 336.49 L 338.58 336.49 L 341.66 336.49 L 344.75 334.96 L 347.83 333.43 L 350.92 333.43 L 354 332.67 L 357.09 331.13 L 360.17 330.37 L 363.25 330.37 L 366.34 329.61 L 369.42 329.61 L 372.51 329.61 L 375.59 329.61 L 378.68 329.61 L 381.76 329.61 L 384.84 329.61 L 387.93 329.61 L 391.01 328.84 L 394.1 328.07 L 397.18 322.72 L 400.27 321.95 L 403.35 320.43 L 406.43 317.37 L 409.52 317.37 L 412.6 317.37 L 415.69 317.37 L 418.77 317.37 L 421.85 317.37 L 424.94 315.83 L 428.02 311.25 L 431.11 311.25 L 434.19 311.25 L 437.28 310.48 L 440.36 310.48 L 443.44 310.48 L 446.53 309.72 L 449.61 308.95 L 452.7 308.95 L 455.78 307.42 L 458.87 307.42 L 461.95 307.42 L 465.03 307.42 L 468.12 304.36 L 471.2 304.36 L 474.29 304.36 L 477.37 304.36 L 480.46 303.6 L 483.54 302.83 L 486.62 302.83 L 489.71 302.83 L 492.79 302.83 L 495.88 301.3 L 498.96 300.53 L 502.04 299 L 505.13 299 L 508.21 299 L 511.3 299 L 514.38 298.24 L 517.47 298.24 L 520.55 298.24 L 523.63 298.24 L 526.72 298.24 L 529.8 298.24 L 532.89 298.24 L 535.97 298.24 L 539.06 298.24 L 542.14 298.24 L 545.22 298.24 L 548.31 298.24 L 551.39 298.24 L 554.48 297.47 L 557.56 296.71 L 560.65 295.94 L 563.73 294.42 L 566 294.42 L 566 439 L 61 439 Z" fill="url(#area)"/>
+<path d="M 61 439 L 64.08 432.88 L 67.17 427.52 L 70.25 422.17 L 73.34 418.35 L 76.42 418.35 L 79.51 416.81 L 82.59 416.81 L 85.67 415.28 L 88.76 415.28 L 91.84 415.28 L 94.93 415.28 L 98.01 414.52 L 101.09 414.52 L 104.18 413.75 L 107.26 413.75 L 110.35 413.75 L 113.43 413.75 L 116.52 413.75 L 119.6 413.75 L 122.68 413.75 L 125.77 413.75 L 128.85 413.75 L 131.94 413.75 L 135.02 413.75 L 138.11 413.75 L 141.19 413.75 L 144.27 413.75 L 147.36 412.99 L 150.44 412.99 L 153.53 412.99 L 156.61 412.99 L 159.7 412.99 L 162.78 412.99 L 165.86 412.99 L 168.95 412.23 L 172.03 412.23 L 175.12 412.23 L 178.2 412.23 L 181.28 412.23 L 184.37 412.23 L 187.45 412.23 L 190.54 412.23 L 193.62 411.46 L 196.71 411.46 L 199.79 410.69 L 202.87 410.69 L 205.96 410.69 L 209.04 410.69 L 212.13 410.69 L 215.21 410.69 L 218.3 410.69 L 221.38 410.69 L 224.46 410.69 L 227.55 410.69 L 230.63 410.69 L 233.72 409.93 L 236.8 409.93 L 239.89 408.4 L 242.97 408.4 L 246.05 408.4 L 249.14 408.4 L 252.22 407.63 L 255.31 404.57 L 258.39 397.69 L 261.47 390.81 L 264.56 386.98 L 267.64 382.39 L 270.73 381.63 L 273.81 380.1 L 276.9 380.1 L 279.98 376.27 L 283.06 374.74 L 286.15 373.98 L 289.23 371.68 L 292.32 367.86 L 295.4 366.32 L 298.49 364.8 L 301.57 364.8 L 304.65 363.26 L 307.74 361.74 L 310.82 356.38 L 313.91 349.5 L 316.99 349.5 L 320.08 349.5 L 323.16 344.14 L 326.24 340.31 L 329.33 340.31 L 332.41 339.55 L 335.5 336.49 L 338.58 336.49 L 341.66 336.49 L 344.75 334.96 L 347.83 333.43 L 350.92 333.43 L 354 332.67 L 357.09 331.13 L 360.17 330.37 L 363.25 330.37 L 366.34 329.61 L 369.42 329.61 L 372.51 329.61 L 375.59 329.61 L 378.68 329.61 L 381.76 329.61 L 384.84 329.61 L 387.93 329.61 L 391.01 328.84 L 394.1 328.07 L 397.18 322.72 L 400.27 321.95 L 403.35 320.43 L 406.43 317.37 L 409.52 317.37 L 412.6 317.37 L 415.69 317.37 L 418.77 317.37 L 421.85 317.37 L 424.94 315.83 L 428.02 311.25 L 431.11 311.25 L 434.19 311.25 L 437.28 310.48 L 440.36 310.48 L 443.44 310.48 L 446.53 309.72 L 449.61 308.95 L 452.7 308.95 L 455.78 307.42 L 458.87 307.42 L 461.95 307.42 L 465.03 307.42 L 468.12 304.36 L 471.2 304.36 L 474.29 304.36 L 477.37 304.36 L 480.46 303.6 L 483.54 302.83 L 486.62 302.83 L 489.71 302.83 L 492.79 302.83 L 495.88 301.3 L 498.96 300.53 L 502.04 299 L 505.13 299 L 508.21 299 L 511.3 299 L 514.38 298.24 L 517.47 298.24 L 520.55 298.24 L 523.63 298.24 L 526.72 298.24 L 529.8 298.24 L 532.89 298.24 L 535.97 298.24 L 539.06 298.24 L 542.14 298.24 L 545.22 298.24 L 548.31 298.24 L 551.39 298.24 L 554.48 297.47 L 557.56 296.71 L 560.65 295.94 L 563.73 294.42 L 566 294.42" fill="none" stroke="#79e2b4" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path class="sweep" d="M 61 439 L 64.08 432.88 L 67.17 427.52 L 70.25 422.17 L 73.34 418.35 L 76.42 418.35 L 79.51 416.81 L 82.59 416.81 L 85.67 415.28 L 88.76 415.28 L 91.84 415.28 L 94.93 415.28 L 98.01 414.52 L 101.09 414.52 L 104.18 413.75 L 107.26 413.75 L 110.35 413.75 L 113.43 413.75 L 116.52 413.75 L 119.6 413.75 L 122.68 413.75 L 125.77 413.75 L 128.85 413.75 L 131.94 413.75 L 135.02 413.75 L 138.11 413.75 L 141.19 413.75 L 144.27 413.75 L 147.36 412.99 L 150.44 412.99 L 153.53 412.99 L 156.61 412.99 L 159.7 412.99 L 162.78 412.99 L 165.86 412.99 L 168.95 412.23 L 172.03 412.23 L 175.12 412.23 L 178.2 412.23 L 181.28 412.23 L 184.37 412.23 L 187.45 412.23 L 190.54 412.23 L 193.62 411.46 L 196.71 411.46 L 199.79 410.69 L 202.87 410.69 L 205.96 410.69 L 209.04 410.69 L 212.13 410.69 L 215.21 410.69 L 218.3 410.69 L 221.38 410.69 L 224.46 410.69 L 227.55 410.69 L 230.63 410.69 L 233.72 409.93 L 236.8 409.93 L 239.89 408.4 L 242.97 408.4 L 246.05 408.4 L 249.14 408.4 L 252.22 407.63 L 255.31 404.57 L 258.39 397.69 L 261.47 390.81 L 264.56 386.98 L 267.64 382.39 L 270.73 381.63 L 273.81 380.1 L 276.9 380.1 L 279.98 376.27 L 283.06 374.74 L 286.15 373.98 L 289.23 371.68 L 292.32 367.86 L 295.4 366.32 L 298.49 364.8 L 301.57 364.8 L 304.65 363.26 L 307.74 361.74 L 310.82 356.38 L 313.91 349.5 L 316.99 349.5 L 320.08 349.5 L 323.16 344.14 L 326.24 340.31 L 329.33 340.31 L 332.41 339.55 L 335.5 336.49 L 338.58 336.49 L 341.66 336.49 L 344.75 334.96 L 347.83 333.43 L 350.92 333.43 L 354 332.67 L 357.09 331.13 L 360.17 330.37 L 363.25 330.37 L 366.34 329.61 L 369.42 329.61 L 372.51 329.61 L 375.59 329.61 L 378.68 329.61 L 381.76 329.61 L 384.84 329.61 L 387.93 329.61 L 391.01 328.84 L 394.1 328.07 L 397.18 322.72 L 400.27 321.95 L 403.35 320.43 L 406.43 317.37 L 409.52 317.37 L 412.6 317.37 L 415.69 317.37 L 418.77 317.37 L 421.85 317.37 L 424.94 315.83 L 428.02 311.25 L 431.11 311.25 L 434.19 311.25 L 437.28 310.48 L 440.36 310.48 L 443.44 310.48 L 446.53 309.72 L 449.61 308.95 L 452.7 308.95 L 455.78 307.42 L 458.87 307.42 L 461.95 307.42 L 465.03 307.42 L 468.12 304.36 L 471.2 304.36 L 474.29 304.36 L 477.37 304.36 L 480.46 303.6 L 483.54 302.83 L 486.62 302.83 L 489.71 302.83 L 492.79 302.83 L 495.88 301.3 L 498.96 300.53 L 502.04 299 L 505.13 299 L 508.21 299 L 511.3 299 L 514.38 298.24 L 517.47 298.24 L 520.55 298.24 L 523.63 298.24 L 526.72 298.24 L 529.8 298.24 L 532.89 298.24 L 535.97 298.24 L 539.06 298.24 L 542.14 298.24 L 545.22 298.24 L 548.31 298.24 L 551.39 298.24 L 554.48 297.47 L 557.56 296.71 L 560.65 295.94 L 563.73 294.42 L 566 294.42" pathLength="100" fill="none" stroke="#d4ffec" stroke-width="3.5" stroke-linecap="round"/>
+<circle class="ripple" cx="566" cy="294.42" r="6" fill="none" stroke="#79e2b4"/>
+<circle cx="566" cy="294.42" r="4" fill="#79e2b4" stroke="#0d1117" stroke-width="2"/>
+<text x="564" y="280.42" font-size="15" fill="#79e2b4" text-anchor="end" font-weight="650">189</text>
+<path d="M 606 224 V 471" stroke="#30363d"/>
+<text x="639" y="234" font-size="18" fill="#e6edf3" font-weight="600">Across the ecosystem</text>
+<text x="639" y="258" font-size="14" fill="#9da7b3" >Merged PRs by repository</text>
+<text x="639" y="288" font-size="14" fill="#e6edf3" >Zero</text>
+<text x="928" y="288" font-size="14" fill="#9da7b3" text-anchor="end" font-weight="600">141</text>
+<rect x="639" y="296" width="289" height="5" rx="2.5" fill="#1c2530"/>
+<rect x="639" y="296" width="289" height="5" rx="1" fill="#79e2b4"/>
+<text x="639" y="320" font-size="14" fill="#e6edf3" >OpenClaude</text>
+<text x="928" y="320" font-size="14" fill="#9da7b3" text-anchor="end" font-weight="600">38</text>
+<rect x="639" y="328" width="289" height="5" rx="2.5" fill="#1c2530"/>
+<rect x="639" y="328" width="77.89" height="5" rx="1" fill="#b5a5ff"/>
+<text x="639" y="352" font-size="14" fill="#e6edf3" >Node</text>
+<text x="928" y="352" font-size="14" fill="#9da7b3" text-anchor="end" font-weight="600">5</text>
+<rect x="639" y="360" width="289" height="5" rx="2.5" fill="#1c2530"/>
+<rect x="639" y="360" width="10.25" height="5" rx="1" fill="#80c7f4"/>
+<text x="639" y="384" font-size="14" fill="#e6edf3" >Node Explorer</text>
+<text x="928" y="384" font-size="14" fill="#9da7b3" text-anchor="end" font-weight="600">2</text>
+<rect x="639" y="392" width="289" height="5" rx="2.5" fill="#1c2530"/>
+<rect x="639" y="392" width="4.1" height="5" rx="1" fill="#ffbd82"/>
+<text x="639" y="416" font-size="14" fill="#e6edf3" >Openlaunch</text>
+<text x="928" y="416" font-size="14" fill="#9da7b3" text-anchor="end" font-weight="600">2</text>
+<rect x="639" y="424" width="289" height="5" rx="2.5" fill="#1c2530"/>
+<rect x="639" y="424" width="4.1" height="5" rx="1" fill="#efa6cc"/>
+<text x="639" y="448" font-size="14" fill="#e6edf3" >OpenClaude Skills</text>
+<text x="928" y="448" font-size="14" fill="#9da7b3" text-anchor="end" font-weight="600">1</text>
+<rect x="639" y="456" width="289" height="5" rx="2.5" fill="#1c2530"/>
+<rect x="639" y="456" width="2.05" height="5" rx="1" fill="#8ed6d1"/>
+<path d="M 32 486 H 928" stroke="#30363d"/>
+<text x="32" y="511" font-size="12" fill="#9da7b3" >Public merge history · authored PRs · verified from GitHub</text>
+<text x="928" y="511" font-size="10" fill="#9da7b3" text-anchor="end" class="label">NO PRIVATE ACTIVITY INCLUDED</text>
+</svg>
