@@ -5,12 +5,12 @@ import { fileURLToPath } from 'node:url';
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const day = 86_400_000;
 const labels = {
-  'Gitlawb/zero': 'Zero',
-  'Gitlawb/openclaude': 'OpenClaude',
-  'Gitlawb/node': 'Node',
-  'Gitlawb/openlaunch': 'Openlaunch',
-  'Gitlawb/node-explorer': 'Node Explorer',
-  'Gitlawb/openclaude-skills': 'OpenClaude Skills',
+  'Twigpine/zero': 'Zero',
+  'Twigpine/openclaude': 'OpenClaude',
+  'Twigpine/node': 'Node',
+  'Twigpine/openlaunch': 'Openlaunch',
+  'Twigpine/node-explorer': 'Node Explorer',
+  'Twigpine/openclaude-skills': 'OpenClaude Skills',
 };
 const themes = {
   dark: {
@@ -37,7 +37,7 @@ function parseUtc(value) {
 
 export function summarize(data) {
   const end = parseUtc(data.generatedAt);
-  if (!Number.isFinite(end) || data.author !== 'Vasanthdev2004' || data.org !== 'Gitlawb') {
+  if (!Number.isFinite(end) || data.author !== 'Vasanthdev2004' || data.org !== 'Twigpine') {
     throw new Error('Unexpected snapshot identity or timestamp.');
   }
   if (!Array.isArray(data.merged) || !data.merged.length || !Array.isArray(data.repositories)) {
@@ -101,7 +101,7 @@ export function renderSvg(summary, themeName, mobile = false) {
   const text = (x, y, value, size = 16, fill = c.ink, extra = '') =>
     `<text x="${n(x)}" y="${n(y)}" font-size="${size}" fill="${fill}" ${extra}>${esc(value)}</text>`;
   add(`<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="title description">`);
-  add(`<title id="title">Public Gitlawb contributions</title><desc id="description">${summary.total} merged pull requests across ${summary.repositories.length} public repositories as of ${esc(summary.snapshot)}. A cumulative timeline and proportional repository bars. ${summary.repositories.map(repo => `${esc(labels[repo.name])}: ${repo.count}`).join('; ')}. Motion is decorative; this is a dated snapshot, not a live feed.</desc>`);
+  add(`<title id="title">Public Twigpine contributions</title><desc id="description">${summary.total} merged pull requests across ${summary.repositories.length} public repositories as of ${esc(summary.snapshot)}. A cumulative timeline and proportional repository bars. ${summary.repositories.map(repo => `${esc(labels[repo.name])}: ${repo.count}`).join('; ')}. Motion is decorative; this is a dated snapshot, not a live feed.</desc>`);
   add(`<defs><linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop stop-color="${c.accent}" stop-opacity=".2"/><stop offset="1" stop-color="${c.accent}" stop-opacity=".015"/></linearGradient></defs>`);
   add(`<style>
     text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}
@@ -116,7 +116,7 @@ export function renderSvg(summary, themeName, mobile = false) {
     @keyframes pulse{0%{transform:scale(.65);opacity:.55}75%,100%{transform:scale(2);opacity:0}}
   </style>`);
   add(`<rect x=".5" y=".5" width="${width - 1}" height="${height - 1}" rx="18" fill="${c.bg}" stroke="${c.border}"/>`);
-  add(text(pad, 36, 'GITLAWB / OPEN-SOURCE ACTIVITY', mobile ? 12 : 13, c.muted, 'class="label"'));
+  add(text(pad, 36, 'TWIGPINE / OPEN-SOURCE ACTIVITY', mobile ? 12 : 13, c.muted, 'class="label"'));
   add(text(pad, 76, 'Built in the open.', mobile ? 30 : 32, c.ink, 'font-weight="650" letter-spacing="-.9"'));
   if (!mobile) add(text(width - pad, 36, summary.snapshot, 13, c.muted, 'text-anchor="end"'));
 
@@ -173,7 +173,7 @@ export function renderSvg(summary, themeName, mobile = false) {
 }
 
 if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
-  const data = JSON.parse(readFileSync(resolve(root, 'data/gitlawb-contributions.json'), 'utf8'));
+  const data = JSON.parse(readFileSync(resolve(root, 'data/twigpine-contributions.json'), 'utf8'));
   const summary = summarize(data);
   const check = process.argv.includes('--check');
   if (!check) mkdirSync(resolve(root, 'assets'), { recursive: true });
