@@ -3,29 +3,29 @@ import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { summarize, renderSvg } from './render-contributions.mjs';
 
-const snapshot = JSON.parse(readFileSync(new URL('../data/gitlawb-contributions.json', import.meta.url), 'utf8'));
+const snapshot = JSON.parse(readFileSync(new URL('../data/twigpine-contributions.json', import.meta.url), 'utf8'));
 const clone = () => structuredClone(snapshot);
 const repoLabels = {
-  'Gitlawb/zero': 'Zero',
-  'Gitlawb/openclaude': 'OpenClaude',
-  'Gitlawb/node': 'Node',
-  'Gitlawb/openlaunch': 'Openlaunch',
-  'Gitlawb/node-explorer': 'Node Explorer',
-  'Gitlawb/openclaude-skills': 'OpenClaude Skills',
+  'Twigpine/zero': 'Zero',
+  'Twigpine/openclaude': 'OpenClaude',
+  'Twigpine/node': 'Node',
+  'Twigpine/openlaunch': 'Openlaunch',
+  'Twigpine/node-explorer': 'Node Explorer',
+  'Twigpine/openclaude-skills': 'OpenClaude Skills',
 };
 
 test('verified snapshot reconciles totals, repository counts, and the last 30 days', () => {
   const summary = summarize(snapshot);
-  assert.equal(summary.total, 189);
-  assert.equal(summary.recent, 13);
+  assert.equal(summary.total, 242);
+  assert.equal(summary.recent, 14);
   assert.equal(summary.repositories.length, 6);
   assert.deepEqual(Object.fromEntries(summary.repositories.map(repo => [repo.name, repo.count])), {
-    'Gitlawb/zero': 141,
-    'Gitlawb/openclaude': 38,
-    'Gitlawb/node': 5,
-    'Gitlawb/node-explorer': 2,
-    'Gitlawb/openlaunch': 2,
-    'Gitlawb/openclaude-skills': 1,
+    'Twigpine/zero': 176,
+    'Twigpine/openclaude': 38,
+    'Twigpine/node': 5,
+    'Twigpine/openlaunch': 20,
+    'Twigpine/node-explorer': 2,
+    'Twigpine/openclaude-skills': 1,
   });
   assert.equal(summary.repositories.reduce((total, repo) => total + repo.count, 0), summary.total);
 });
@@ -33,7 +33,7 @@ test('verified snapshot reconciles totals, repository counts, and the last 30 da
 test('cumulative timeline reaches each independently measured monthly boundary and final total', () => {
   const summary = summarize(snapshot);
   const cumulativeAt = time => summary.points.find(point => point.time === Date.parse(time))?.value;
-  assert.deepEqual(summary.months.map(month => month.label), ['Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep']);
+  assert.deepEqual(summary.months.map(month => month.label), ['Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov']);
   for (const [time, expected] of [
     ['2026-04-01T00:00:00Z', 0],
     ['2026-05-01T00:00:00Z', 34],
@@ -41,8 +41,10 @@ test('cumulative timeline reaches each independently measured monthly boundary a
     ['2026-07-01T00:00:00Z', 134],
     ['2026-08-01T00:00:00Z', 168],
     ['2026-09-01T00:00:00Z', 184],
+    ['2026-10-01T00:00:00Z', 200],
+    ['2026-11-01T00:00:00Z', 237],
   ]) assert.equal(cumulativeAt(time), expected, time);
-  assert.deepEqual(summary.points.at(-1), { time: Date.parse(snapshot.generatedAt), value: 189 });
+  assert.deepEqual(summary.points.at(-1), { time: Date.parse(snapshot.generatedAt), value: 242 });
   for (let index = 1; index < summary.points.length; index++) {
     assert.ok(summary.points[index].time >= summary.points[index - 1].time, 'time cannot go backwards');
     assert.ok(summary.points[index].value >= summary.points[index - 1].value, 'cumulative merges cannot decrease');
@@ -50,15 +52,19 @@ test('cumulative timeline reaches each independently measured monthly boundary a
 });
 
 test('recent window includes its exact cutoff, excludes the preceding second, and rejects future merges', () => {
+  // Relative to the snapshot, so a refreshed snapshot needs no edits here.
+  const end = Date.parse(snapshot.generatedAt);
+  const utc = time => new Date(time).toISOString().replace('.000Z', 'Z');
+  const cutoff = end - 30 * 86_400_000;
   const data = {
     ...snapshot,
-    repositories: [{ name: 'Gitlawb/zero', url: 'https://github.com/Gitlawb/zero', count: 3 }],
-    merged: ['2026-08-12T17:40:10Z', '2026-08-12T17:40:11Z', snapshot.generatedAt].map((mergedAt, index) => ({
-      repo: 'Gitlawb/zero', number: index + 1, mergedAt, url: `https://github.com/Gitlawb/zero/pull/${index + 1}`,
+    repositories: [{ name: 'Twigpine/zero', url: 'https://github.com/Twigpine/zero', count: 3 }],
+    merged: [utc(cutoff - 1000), utc(cutoff), snapshot.generatedAt].map((mergedAt, index) => ({
+      repo: 'Twigpine/zero', number: index + 1, mergedAt, url: `https://github.com/Twigpine/zero/pull/${index + 1}`,
     })),
   };
   assert.equal(summarize(data).recent, 2);
-  data.merged[2].mergedAt = '2026-09-11T17:40:12Z';
+  data.merged[2].mergedAt = utc(end + 1000);
   assert.throws(() => summarize(data));
 });
 
@@ -72,7 +78,7 @@ test('summarizing unsorted input preserves the caller data and produces the same
   assert.deepEqual(summary, summarize(snapshot));
 });
 
-for (const repo of ['Gitlawb/not-public', 'OtherOrg/zero']) {
+for (const repo of ['Twigpine/not-public', 'OtherOrg/zero']) {
   test(`rejects a repository outside the verified public allowlist: ${repo}`, () => {
     const data = clone();
     data.merged[0].repo = repo;
@@ -98,7 +104,7 @@ test('rejects duplicate PRs, duplicate repository summaries, and mismatched coun
 
 test('rejects PR URLs that disagree with their repository and number', () => {
   const data = clone();
-  data.merged[0].url = 'https://github.com/Gitlawb/zero/pull/999999';
+  data.merged[0].url = 'https://github.com/Twigpine/zero/pull/999999';
   assert.throws(() => summarize(data));
 });
 
@@ -111,7 +117,7 @@ for (const invalidDate of ['not-a-date', '2026-04-31T12:00:00Z', '2026-02-29T12:
 }
 
 test('rejects impossible snapshot dates and timestamps outside the canonical UTC dataset format', () => {
-  for (const generatedAt of ['2026-09-31T12:00:00Z', 'September 11, 2026']) {
+  for (const generatedAt of ['2026-11-31T12:00:00Z', 'November 17, 2026']) {
     assert.throws(() => summarize({ ...clone(), generatedAt }), generatedAt);
   }
   const data = clone();
@@ -125,16 +131,16 @@ for (const theme of ['dark', 'light']) {
       const svg = renderSvg(summarize(snapshot), theme, mobile);
       assert.match(svg, mobile ? /viewBox="0 0 480 858"/ : /viewBox="0 0 960 540"/);
       assert.match(svg, /role="img" aria-labelledby="title description"/);
-      assert.match(svg, /189 merged pull requests across 6 public repositories as of 11 Sept 2026/);
+      assert.match(svg, /242 merged pull requests across 6 public repositories as of 17 Nov 2026/);
       assert.match(svg, /dated snapshot, not a live feed/);
       const texts = [...svg.matchAll(/<text\b[^>]*>([^<]*)<\/text>/g)].map(match => match[1]);
-      for (const [value, label] of [['189', 'merged PRs'], ['6', 'public repos'], ['13', 'last 30 days']]) {
+      for (const [value, label] of [['242', 'merged PRs'], ['6', 'public repos'], ['14', 'last 30 days']]) {
         assert.equal(texts[texts.indexOf(label) - 1], value, label);
       }
       for (const repo of snapshot.repositories) {
         assert.equal(texts[texts.indexOf(repoLabels[repo.name]) + 1], String(repo.count), repo.name);
       }
-      assert.equal(texts.filter(value => value === '189').length, 2, 'total and chart endpoint both show 189');
+      assert.equal(texts.filter(value => value === '242').length, 2, 'total and chart endpoint both show 242');
       assert.match(svg, /\.sweep,\.ripple\{display:none\}/);
       assert.match(svg, /@media \(prefers-reduced-motion:no-preference\)\{\s*\.sweep\{display:block;/);
       const sweepPath = svg.match(/<path class="sweep" d="([^"]+)"/);
